@@ -9,12 +9,31 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+.container-fluid {
   background-color: #293b5f;
-  padding: 3rem;
+  padding: 2rem;
   color: rgb(238, 232, 232);
   border-radius: 0 20px;
 }
 h1 {
   padding: 1rem 0;
   font-weight: bolder;
+}
+button {
+  cursor: pointer;
+  margin: 5rem 2rem;
+  font-size: 18px;
+  padding: 0.5rem 1rem;
+  font-weight: bolder;
+  border-radius: 15px;
+  box-shadow: 10px 3px 10px 1px rgb(100, 100, 100);
+}
+button:hover {
+  background-color: #dbe6fd;
+  border-color: white;
+}
+ul {
+  text-align: center;
+  margin: 0 10rem;
 }
